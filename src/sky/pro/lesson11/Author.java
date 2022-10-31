@@ -14,7 +14,7 @@ public class Author {
     public String getAuthorLastName() { return authorLastName; }
 
     public String toString() {
-        return " Автор "+this.authorName+" "+this.authorLastName;
+        return this.authorName+" "+this.authorLastName;
     }
     public boolean equals(Object obj) {
         Author author = (Author) obj;

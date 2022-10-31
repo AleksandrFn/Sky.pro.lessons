@@ -25,7 +25,7 @@ public class Books {
       this.yearPublication=yearPublication;
    }
    public String toString() {
-      return "Название книги "+ this.bookName+this.author+" Год публикации "+this.yearPublication;
+      return "Название книги "+ this.bookName+" Автор "+ author+" Год публикации "+this.yearPublication;
    }
 
    public boolean equals(Object obj) {
